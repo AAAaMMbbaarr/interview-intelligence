@@ -24,7 +24,20 @@ import re
 # ──────────────────────────────────────────────────────────────
 
 load_dotenv()
-client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
+
+# Support both local .env and Streamlit Cloud secrets
+api_key = os.getenv("GOOGLE_API_KEY")
+if not api_key:
+    try:
+        api_key = st.secrets["GOOGLE_API_KEY"]
+    except Exception:
+        pass
+
+if not api_key:
+    st.error("⚠️ No API key found. Add GOOGLE_API_KEY to your .env file or Streamlit secrets.")
+    st.stop()
+
+client = genai.Client(api_key=api_key)
 MODEL = "gemini-3.5-flash"
 
 # ──────────────────────────────────────────────────────────────
