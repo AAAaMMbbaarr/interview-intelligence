@@ -2,12 +2,12 @@
 
 > **An end-to-end AI career intelligence platform that predicts exact interview questions, stress-tests candidate claims, and conducts real-time voice mock interviews tailored to your resume and job description.**
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit%20Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://interview-intelligence-evmru5zdac3kcsqsfqcsu9.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit%20Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://interview-intelligence-ifh6qrdpi32srfykvdce3p.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Google Gemini](https://img.shields.io/badge/Google%20Gemini-Multimodal%20LLM-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-👉 **[Launch Live Application](https://interview-intelligence-evmru5zdac3kcsqsfqcsu9.streamlit.app/)**
+👉 **[Launch Live Application](https://interview-intelligence-ifh6qrdpi32srfykvdce3p.streamlit.app/)**
 
 ---
 
